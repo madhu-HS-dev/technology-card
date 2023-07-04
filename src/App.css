@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+
+.technologyCardSection {
+  background-color: #f4faff;
+  min-height: 100vh;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .list-container {
+    flex-wrap: nowrap;
+  }
+}
+
+.main-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 45px;
+  text-align: center;
+}
+
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
